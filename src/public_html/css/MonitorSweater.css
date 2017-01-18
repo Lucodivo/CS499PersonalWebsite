@@ -1,0 +1,27 @@
+/* css stylesheet specific for monitor-based browsing */
+
+/* header styles*/
+header {
+    width: 1000px;
+}
+.headerLink{
+    margin: 7%;
+}
+.headerLink:hover{
+    text-shadow: 2px 2px #445566;
+}
+
+/* payload styles */
+#payload {
+    width: 998px;
+}
+#payload img{
+    width: 110px;
+}
+
+/* footer styles */
+#footer {
+    width: 998px;
+}
+
+/* global default styles */

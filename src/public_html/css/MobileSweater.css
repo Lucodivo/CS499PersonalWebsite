@@ -1,0 +1,42 @@
+/* css stylesheet specific for mobile-based browsing */
+
+/* header styles */
+header {
+    width: 98%;
+}
+img{
+    max-width: 95%;
+    max-height: 95%;
+}
+#titleAndNav {
+}
+
+/* payload styles */
+#payload{
+    width: 97%;
+}
+#payload img{
+    width: 23%;
+}
+
+/* footer styles */
+#footer {
+    width: 97%;
+}
+
+/* global default styles */
+
+
+/* styles for portrait orientation */
+@media screen and (orientation: portrait){
+    .headerLink{
+        margin: 2%;
+    }
+}
+
+/* styles for landscape orientation */
+@media screen and (orientation: landscape){
+    .headerLink{
+        margin: 5%;
+    }
+}
